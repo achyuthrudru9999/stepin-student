@@ -6,43 +6,38 @@ void setUp(){}
 /* Required by the unity test framework */
 void tearDown(){}
 
-void test_add(void) {
-  contact_t new_contact = {"Add", "12345", "user1@email.com"};
-  TEST_ASSERT_EQUAL(0, add(&new_contact));
+void test_add(void)
+{
+  TEST_ASSERT_EQUAL(11, add(5,6));
+  TEST_ASSERT_EQUAL(5,add(3,0));
 }
 
-void test_subtract(void) {
-  contact_t new_contact = {"subtract", "12345", "user1@email.com"};
-  TEST_ASSERT_EQUAL(0, add_contact(&new_contact));
-  TEST_ASSERT_EQUAL(0, delete_contact(new_contact.name));
+void test_subtract(void) 
+{
+  TEST_ASSERT_EQUAL(3, subtract(5,3));
+  TEST_ASSERT_EQUAL(0, subtract(3,0);
 }
 
-void test_multiply(void) {
-  contact_t new_contact = {"Modify_User", "12345", "user1@email.com"};
-  contact_t new_contact1 = {"Modified_User", "345", "new@email.com"};
-  TEST_ASSERT_EQUAL(0, add_contact(&new_contact));
-  TEST_ASSERT_EQUAL(0, modify_contact(new_contact.name, &new_contact1));
-  TEST_ASSERT_EQUAL(0, delete_contact(new_contact1.name));
+void test_multiply(void) 
+ {
+  TEST_ASSERT_EQUAL(12, multiply(4,3));
+  TEST_ASSERT_EQUAL(0, multiply(2,4));
 }
-void test_divide(void) {
-  contact_t new_contact = {"Search_User", "345", "new@email.com"};
-  TEST_ASSERT_EQUAL(0, add_contact(&new_contact));
-  TEST_ASSERT_EQUAL(0 , search_contact(new_contact.name));
-  TEST_ASSERT_EQUAL(0 , delete_contact(new_contact.name));
+void test_divide(void)
+  {
+  TEST_ASSERT_EQUAL(2, divide(20,10));
+  TEST_ASSERT_EQUAL(3 , divide(15,5));
 }
 {
 void test_sq(void) {
-  contact_t new_contact = {"Search_User", "345", "new@email.com"};
-  TEST_ASSERT_EQUAL(0, add_contact(&new_contact));
-  TEST_ASSERT_EQUAL(0 , search_contact(new_contact.name));
-  TEST_ASSERT_EQUAL(0 , delete_contact(new_contact.name));
+  TEST_ASSERT_EQUAL(14, sq(4));
+  TEST_ASSERT_EQUAL(0 , sq(3));
 }
 {
-void test_sqrt(void) {
-  contact_t new_contact = {"Search_User", "345", "new@email.com"};
-  TEST_ASSERT_EQUAL(0, add_contact(&new_contact));
-  TEST_ASSERT_EQUAL(0 , search_contact(new_contact.name));
-  TEST_ASSERT_EQUAL(0 , delete_contact(new_contact.name));
+void test_sqrt(void) 
+{
+  TEST_ASSERT_EQUAL(2, sqrt(4));
+  TEST_ASSERT_EQUAL(2 , sqrt(16));
 }
 int main(void)
 {
