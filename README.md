@@ -1,1 +1,1 @@
-# stepin-student
+# stepin-calculator
