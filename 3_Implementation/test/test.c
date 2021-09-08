@@ -1,5 +1,6 @@
 #include "unity.h"
 #include "cal.h"
+#include "unity_internal.h"
 
 /* Required by the unity test framework */
 void setUp(){}
