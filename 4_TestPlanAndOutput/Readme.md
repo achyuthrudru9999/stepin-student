@@ -13,4 +13,4 @@
 | **Test ID** | **Description** | **Exp IN** | **Exp OUT** | **Actual Out** | **Type Of Test** |
 | --- | --- | --- | --- | --- | --- |
 | L\_01 | if user see the operations in display | Addition, subtraction, multiplication ,division, square, square root | Select the operation performed | Operation is done show result in display | Requirement based |
-| L\_02 | if choice for the switchcase is within the range | choice(7) | Respective case statement will be printed else wrong choice | Print statement | Scenario based |
+| L\_02 | if choice for the switchcase is within the range | choice(1-8) | Respective case statement will be printed else wrong choice | Print statement | Scenario based |
