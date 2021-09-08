@@ -2,7 +2,7 @@
 
 Basic project which can be used to calculate athematic calculation from given numbers and shows the output.
 
-**Research* :**
+**Research**** :**
 
 A calculator is a device that performs athematic operations on numbers. The simple calculator can do only addition, subtraction, multiplication and division. More sophisticated calculators can handle exponential operations, roots, logarithms, trigonometric functions, and hyperbolic functions.
 
