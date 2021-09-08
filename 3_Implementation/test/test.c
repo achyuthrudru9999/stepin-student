@@ -29,11 +29,10 @@ void test_divide(void)
   TEST_ASSERT_EQUAL(3 , divide(15,5));
 }
 {
-void test_sq(void) {
+void test_sq(void)
   TEST_ASSERT_EQUAL(14, sq(4));
   TEST_ASSERT_EQUAL(0 , sq(3));
 }
-{
 void test_sqrt(void) 
 {
   TEST_ASSERT_EQUAL(2, sqrt(4));
